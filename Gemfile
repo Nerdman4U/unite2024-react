@@ -54,6 +54,8 @@ gem 'loofah'
 gem 'sdoc'
 gem 'time_difference'
 gem 'email_validator'
+gem 'shakapacker'
+gem 'react_on_rails'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
