@@ -1,4 +1,5 @@
 Rails.application.routes.draw do   
+  get 'hello_world', to: 'hello_world#index'
   root 'welcome#index'
 
   get 'votes/recently_added' => 'votes#recently_added', as: :recently_added_votes
